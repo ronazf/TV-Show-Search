@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+h1 {
+    padding: 5% 0;
+    font-size: 50px;
+    background-color: rgb(102, 102, 153);
+    margin-top: 0;
+    font-family: 'Abel', sans-serif;
+    font-weight: 700;
+    color: 	thistle;
+}
+
+h2 {
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+    font-family: 'Abel', sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+#textinput {
+    border-radius: 15px;
+    width: 18%;
+    border-color: grey;
+    margin-bottom: 2%;
+}
+
+#textinput:focus {
+    border-radius: 15px;
+    border-color: hsl(226, 76%, 53%);
+    border-width: 5px;
+    outline: none;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.checked {
+    color: yellow !important;
+}
+
+#div {
+    display: inline-block;
+    margin: 1%;
+}
+
+.fa-star {
+    color: whitesmoke;
+}
+
+.rating {
+    padding: 16px 0;;
+}
